@@ -52,6 +52,7 @@ body {
 .cv-container {
   aspect-ratio: auto;
   min-width: auto;
+  max-width: 80rem;
   margin: auto;
   background: var(--white);
   display: flex;
@@ -171,10 +172,10 @@ body {
   transition: background-color 0.2s ease;
 }
 
-.skill-item:hover {
+/* .skill-item:hover {
   background-color: var(--primary);
   color: var(--white);
-}
+} */
 
 .skill-name {
   font-weight: 600;
