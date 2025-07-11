@@ -52,7 +52,7 @@ body {
 .cv-container {
   aspect-ratio: auto;
   min-width: auto;
-  max-width: 80rem;
+  max-width: 70rem;
   margin: auto;
   background: var(--white);
   display: flex;
