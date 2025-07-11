@@ -1,0 +1,141 @@
+{
+  "name": "Orest Maryniuk",
+  "field": "Fullstack Developer",
+  "contacts": [
+    {
+      "icon": "icon-email",
+      "text": "orest.maryniuk@gmail.com",
+      "href": "mailto:orest.maryniuk@gmail.com"
+    },
+    {
+      "icon": "icon-phone",
+      "text": "+38 (098) 321-18-11",
+      "href": "tel:+380983211811"
+    },
+    {
+      "icon": "icon-github",
+      "text": "github.com/OrestMaryniuk",
+      "href": "https://github.com/OrestMaryniuk"
+    },
+    {
+      "icon": "icon-location",
+      "text": "Lviv, Ukraine",
+      "href": "https://www.google.com/maps?q=Lviv, Ukraine"
+    },
+    {
+      "icon": "icon-linkedin",
+      "text": "linkedin.com/in/orest-maryniuk-647475269",
+      "href": "https://linkedin.com/in/orest-maryniuk-647475269"
+    },
+    {
+    "icon": "icon-telegram",
+    "text": "@orestmaryniuk",
+    "href": "https://t.me/orestmaryniuk"
+  }
+  ],
+  "skills": [
+    { "name": "JavaScript" },
+    { "name": "TypeScript" },
+    { "name": "HTML/CSS" },
+    { "name": "Tailwind CSS" },
+    { "name": "React" },
+    { "name": "Next.js" },
+    { "name": "Gatsby" },
+    { "name": "Vite" },
+    { "name": "Zustand" },
+    { "name": "Redux" },
+    { "name": "Node.js" },
+    { "name": "Express.js" },
+    { "name": "MongoDB" },
+    { "name": "PostgreSQL" },
+    { "name": "REST API" },
+    { "name": "GraphQL" },
+    { "name": "MQTT" },
+    { "name": "Mosquitto" },
+    { "name": "Docker" },
+    { "name": "Git" },
+    { "name": "Postman" },
+    { "name": "Figma" },
+    { "name": "Jest" },
+    { "name": "CI/CD" }
+  ],
+  "languages": [
+    { "name": "Ukrainian", "level": "Native" },
+    { "name": "English", "level": "Intermediate" }
+  ],
+  "about": [
+    "Fullstack Developer with around 3 years of hands-on experience in web development.",
+    "I started my career as a frontend developer and worked mostly with React, Next.js, and TypeScript. I was responsible for building user interfaces, integrating APIs, and improving performance across multiple projects. Over time, I became confident in creating clean, scalable UI architecture from scratch.",
+    "About a year ago, I began actively working on backend tasks as well — building REST APIs, handling data processing, and integrating third-party services using Node.js and Express. Since then, I’ve taken on fullstack responsibilities, delivering end-to-end features and collaborating closely with both frontend and backend teams.",
+    "I am comfortable working independently or in a team, and I am always focused on achieving results that meet real user needs. I am constantly learning and improving my skills in both front-end and back-end development.",
+    "I’m looking for an environment that supports growth and gives me the opportunity to develop both my technical and product skills."
+  ],
+  "experience": [
+    {
+      "title": "Fullstack Developer",
+      "company": "Bentify",
+      "period": "08/2022 - present",
+      "description": [
+        "Helped build, improve, and support web applications used in production.",
+        "Created frontend architecture for new projects using React, Next.js, and TypeScript, focusing on speed and scalability. ",
+        " Improved performance by reducing page load time, using techniques like lazy loading, server-side rendering. ",
+        " Suggested and implemented improvements in the codebase, including refactoring.",
+        " Worked closely with designers and backend developers to build a smooth user experience and connect with APIs.",
+        " Took part in planning, estimating tasks, and making technical decisions"
+      ]
+    },
+    {
+      "title": "Fullstack Developer",
+      "company": "ТОВ \"Українські геоінформаційні системи\"",
+      "period": "07/2024 - 06/2025",
+      "description": [
+        "Developed new features and supported existing parts of the system.",
+        "Worked with clients and project managers to understand business needs.",
+        "Wrote logic to process data, connected with internal services and sent data outside.",
+        "Improved service performance, fixed bugs, and made the system more stable.",
+        "Created MDVR service: processed photos/videos, tracked transport, connected telemetry.",
+        "Worked closely with other developers and analysts in the team."
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Glowly AI",
+      "period": "05/2023- 09/2024",
+      "description": [
+        "Developed the frontend part of the Glowly AI product from scratch using React and Next.js, ensuring high performance and user-friendliness.",
+        " Collaborated with the design team to create UX/UI solutions that enhance the user experience.",
+        " Worked closely with the backend team to integrate various APIs, ensuring the stable and scalable operation of the system.",
+        " Was the sole developer during the initial stages of the project, responsible for the architecture and functionality of the frontend part.",
+        " Utilized tools for testing and performance monitoring to ensure high code quality."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "-",
+      "tech": "-",
+      "description": "-"
+    },
+    {
+      "title": "-",
+      "tech": "-",
+      "description": "-"
+    }
+  ],
+  "education": [
+    {
+      "title": "Accounting and Analysis",
+      "school": "Lviv Polytechnic National University",
+      "period": "2006-2011",
+      "description": "Дипломна робота: система керування навчальним процесом"
+    }
+  ],
+  "courses": [
+    {
+      "title": "Full Stack Developer",
+      "school": "GoIT Global Courses",
+      "period": "2021-2022",
+      "description": "Completed a year-long course where I gained fundamental knowledge in programming and web development, which became the foundation for my further professional growth."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Fullstack Developer</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div class="controls">
+      <button class="btn">📄 Download PDF</button>
+    </div>
+
+    <div class="cv-container" id="cv-content">
+      <div class="sidebar">
+        <div class="section">
+          <div class="photo-container">
+            <img class="photo" src="/photo.jpg" alt="Фото" />
+          </div>
+          <div class="name">{{name}}</div>
+          <div class="field">{{field}}</div>
+        </div>
+
+        <div class="section contacts">
+          <h3>Contacts</h3>
+          <ul class="contact-list">
+            {{#each contacts}}
+            <li class="contact-item">
+              <svg class="icon" width="20" height="20">
+                <use href="#{{icon}}"></use>
+              </svg>
+              <!-- <span class="contact-icon">{{icon}}</span> -->
+              {{#if href}}
+              <a href="{{href}}" target="_blank" rel="noopener noreferrer"
+                >{{text}}</a
+              >
+              {{else}} {{text}} {{/if}}
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3>Skills</h3>
+          <ul class="skill-list">
+            {{#each skills}}
+            <li class="skill-item">
+              <p class="skill-name">{{name}}</p>
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3>Languages</h3>
+          {{#each languages}}
+          <div class="language-item">
+            <span>{{name}}</span><span class="language-level">{{level}}</span>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="section">
+          <h3>About Me</h3>
+          <div class="description">
+            {{#each about}}
+            <p>{{this}}</p>
+            {{/each}}
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Experience</h3>
+          {{#each experience}}
+          <div class="experience-item">
+            <div class="tile">{{title}}</div>
+            <div class="subtitle">{{company}}</div>
+            <div class="caption">{{period}}</div>
+            <div class="description">
+              {{#each description}} • {{this}}<br />
+              {{/each}}
+            </div>
+          </div>
+          {{/each}}
+        </div>
+
+        <div class="section">
+          <h3>Courses</h3>
+          {{#each courses}}
+          <div class="education-item">
+            <div class="tile">{{title}}</div>
+            <div class="subtitle">{{school}}</div>
+            <div class="caption">{{period}}</div>
+            <div class="description">{{description}}</div>
+          </div>
+          {{/each}}
+        </div>
+
+        <div class="section">
+          <h3>Education</h3>
+          {{#each education}}
+          <div class="education-item">
+            <div class="tile">{{title}}</div>
+            <div class="subtitle">{{school}}</div>
+            <div class="caption">{{period}}</div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+
+    {{> svg-sprite}}
+    <script type="module" src="./src/script.js"></script>
+  </body>
+</html>
